@@ -21,6 +21,8 @@
       <sourceFolder url="file://$MODULE_DIR$/prototype" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/template" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/theory" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mediator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/responsibilitychain" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
