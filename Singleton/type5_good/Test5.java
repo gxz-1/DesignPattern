@@ -20,9 +20,8 @@ class Singleton {
 	private static volatile Singleton instance;
 
 	//双重检查 解决线程安全问题，同时解决懒加载问题
-	public static synchronized Singleton getinstance() {
+	public static Singleton getinstance() {
 		if (instance == null) {
-
 			synchronized (Singleton.class) {
 				if (instance == null) {
 					instance = new Singleton();
